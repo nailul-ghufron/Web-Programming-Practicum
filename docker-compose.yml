@@ -1,7 +1,7 @@
 services:
   php-praktikum:
     image: php:8.2-apache
-    container_name: php-modul4
+    container_name: prac-web-programming
     ports:
       - "8081:80"
     volumes:
